@@ -10,17 +10,28 @@ nav{
   position: fixed;
   width: 100%;
   clear: both;
-  padding: 10px;
+
   z-index: 9999;
-  margin: 0;
-  border: solid 10px darksalmon;
+  margin: 1px 0 0 0;
+  border: 10px;
   background-color: #E4F9F5;
+}
+
+#items{
+  margin: 0;
+  padding: 10px;
 }
 
 .menus{
   text-decoration: none;
   font-size: 1.5rem;
-  margin-left: 10px;
+  margin-left: 0;
+
+}
+
+.menus:hover{
+  background-color: #66BFBF;
+  padding: 10px;
 }
 
 
@@ -75,6 +86,12 @@ h3{
 
 a{
   color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+}
+
+a:hover{
+  color: #EAF6F6;
 }
 
 p{
@@ -86,7 +103,7 @@ p{
 .pie{
   background-color: #66BFBF;
   border: 0;
-  padding: 0;
+  padding: 50px 0 20px;
   position: absolute;
   margin-top: 10px;
   width: 100%;
@@ -136,6 +153,12 @@ footer p{
   width: 50%;
 }
 
+.copyright{
+color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
 .titulo1{
   font-weight: normal;
 }
@@ -149,18 +172,18 @@ footer p{
 
 .BUTTON_VFC {
   background: #57C5B6;
-  background-image: -webkit-linear-gradient(top, #57C5B6, #159895);
-  background-image: -moz-linear-gradient(top, #57C5B6, #159895);
-  background-image: -ms-linear-gradient(top, #57C5B6, #159895);
-  background-image: -o-linear-gradient(top, #57C5B6, #159895);
+  background-image: -webkit-linear-gradient(top, #11cdd4, #159895);
+  background-image: -moz-linear-gradient(top, #11cdd4, #159895);
+  background-image: -ms-linear-gradient(top, #11cdd4, #159895);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
 
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   border-radius: 7px;
   color: #EAF6F6;
-  font-family: Helvetica;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.5em;
-  font-weight: normal;
+  font-weight: bold;
   padding: 15px;
   text-decoration: none;
   display: inline-block;
@@ -171,10 +194,10 @@ footer p{
 .BUTTON_VFC:hover {
   border: solid #05BFDB 1px;
   background: #1A5F7A;
-  background-image: -webkit-linear-gradient(top, #088395, #57C5B6);
-  background-image: -moz-linear-gradient(top, #088395, #57C5B6);
-  background-image: -ms-linear-gradient(top, #088395, #57C5B6);
-  background-image: -o-linear-gradient(top, #088395, #57C5B6);
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
 
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
@@ -244,8 +267,13 @@ footer p{
 }
 
 
-.boton1{
+.contact-me{
   margin-bottom: 100px;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
 }
 
 
