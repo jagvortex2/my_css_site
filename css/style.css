@@ -6,6 +6,16 @@ body {
   font-family: 'Merriweather', serif;
 }
 
+p::selection {
+color: #FAF8F1;
+  background-color: #D9ACF5;
+}
+
+h1::selection {
+
+  background-color: hotpink;
+}
+
 nav{
   position: fixed;
   width: 100%;
